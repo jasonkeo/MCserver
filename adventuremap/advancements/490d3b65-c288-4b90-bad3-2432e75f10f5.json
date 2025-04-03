@@ -1,0 +1,17 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2020-10-10 10:44:53 +1100",
+      "minecraft:snowy_tundra": "2020-10-10 10:43:52 +1100",
+      "minecraft:desert": "2020-10-10 10:47:05 +1100",
+      "minecraft:birch_forest": "2020-10-10 10:44:20 +1100",
+      "minecraft:badlands": "2020-10-10 10:47:21 +1100",
+      "minecraft:dark_forest": "2020-10-10 10:44:59 +1100",
+      "minecraft:river": "2020-10-10 10:44:02 +1100",
+      "minecraft:stone_shore": "2020-10-10 10:46:54 +1100",
+      "minecraft:plains": "2020-10-10 10:41:57 +1100"
+    },
+    "done": false
+  },
+  "DataVersion": 2580
+}
