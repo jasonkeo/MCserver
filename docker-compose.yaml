@@ -22,10 +22,10 @@ services:
       SIMULATION_DISTANCE: "3"
       SPAWN_PROTECTION: "1"
       # SEED: "-3609821817241206192"
-      FORCE_WORLD_COPY: "TRUE"
-      LEVEL: "adventuremap"
+      # FORCE_WORLD_COPY: "TRUE"
+      # LEVEL: "adventuremap"
     volumes:
-      - ./serverdata:/data
+      - ./adventuretimemap:/data
       - ./server-icon.png:/data/server-icon.png
     restart: unless-stopped
     logging:
