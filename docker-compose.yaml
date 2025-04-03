@@ -24,6 +24,7 @@ services:
       OVERRIDE_ICON: true
     volumes:
       - ./serverdata:/data
+      - ./icon.jpg:/icon.jpg
     restart: unless-stopped
     logging:
       driver: "json-file"
