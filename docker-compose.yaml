@@ -13,12 +13,13 @@ services:
       VERSION: "latest"
       MOTD: "Ling Nota Rip YOur OFf"
       MODE: "survival"
-      MAX_PLAYERS: "50"
+      MAX_PLAYERS: "30"
       DIFFICULTY: "hard"
       OPS: |
         Panda047
       SERVER_NAME: "Ling Nota Rip YOur OFf"
       VIEW_DISTANCE: "8"
+      SIMULATION_DISTANCE: "3"
       SPAWN_PROTECTION: "1"
       SEED: "-3609821817241206192"
       ICON: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fstablecog.com%2Fgallery%2Fo%2Fe942349c-510f-40fb-9cb9-6c2c3772512a&psig=AOvVaw3zd7dIEFH1R5LnaZ8vygOe&ust=1743734182764000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJDvypfquowDFQAAAAAdAAAAABAI"
