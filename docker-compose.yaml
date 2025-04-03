@@ -18,10 +18,11 @@ services:
       SERVER_NAME: "Ling Nota Rip YOur OFf"
       VIEW_DISTANCE: "8"
       SIMULATION_DISTANCE: "4"
-      ICON: /icon.jpg
+
       SPAWN_PROTECTION: "1"
       SEED: "-3609821817241206192"
       OVERRIDE_ICON: true
+      ICON: /icon.jpg
     volumes:
       - ./serverdata:/data
       - ./icon.jpg:/icon.jpg
