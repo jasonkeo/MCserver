@@ -21,7 +21,7 @@ services:
       VIEW_DISTANCE: "8"
       SIMULATION_DISTANCE: "3"
       SPAWN_PROTECTION: "1"
-      SEED: "-3609821817241206192"
+      # SEED: "-3609821817241206192"
     volumes:
       - ./adventuremap:/data
       - ./server-icon.png:/data/server-icon.png
