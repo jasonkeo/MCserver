@@ -1,0 +1,32 @@
+
+services:
+  minecraft:
+    image: itzg/minecraft-server:latest
+    container_name: minecraft
+    ports:
+      - "25565:25565"
+    environment:
+      EULA: "TRUE"
+      MEMORY: "4G"
+      VERSION: "latest"
+      MOTD: "Young ni"
+      MODE: "survival"
+      MAX_PLAYERS: "50"
+      DIFFICULTY: "hard"
+      OPS: |
+        Panda047
+      SERVER_NAME: "Ling Nota Rip YOur OFf"
+      VIEW_DISTANCE: "8"
+      SIMULATION_DISTANCE: "4"
+      ICON: /icon.jpg
+      SPAWN_PROTECTION: "1"
+      SEED: "-3609821817241206192"
+      OVERRIDE_ICON: true
+    volumes:
+      - ./serverdata:/data
+    restart: unless-stopped
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
