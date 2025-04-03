@@ -3,11 +3,12 @@ services:
   minecraft:
     image: itzg/minecraft-server:latest
     container_name: minecraft
+    tty: true
+    stdin_open: true
     ports:
       - "25565:25565"
     environment:
       EULA: "TRUE"
-      MEMORY: "4G"
       VERSION: "latest"
       MOTD: "Young ni"
       MODE: "survival"
@@ -17,15 +18,12 @@ services:
         Panda047
       SERVER_NAME: "Ling Nota Rip YOur OFf"
       VIEW_DISTANCE: "8"
-      SIMULATION_DISTANCE: "4"
-
       SPAWN_PROTECTION: "1"
       SEED: "-3609821817241206192"
       OVERRIDE_ICON: true
       ICON: /icon.jpg
     volumes:
       - ./serverdata:/data
-      - ./icon.jpg:/icon.jpg
     restart: unless-stopped
     logging:
       driver: "json-file"
