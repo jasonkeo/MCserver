@@ -28,7 +28,7 @@ services:
       # FORCE_WORLD_COPY: "TRUE"
       # LEVEL: "adventuremap"
     volumes:
-      - ./adventuretimemap:/data
+      - ./serverdata:/data
       - ./server-icon.png:/data/server-icon.png
     restart: unless-stopped
     logging:
