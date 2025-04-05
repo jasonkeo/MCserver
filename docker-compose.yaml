@@ -25,8 +25,6 @@ services:
       # REQUIRE_RESOURCE_PACK: "true"
       # RESOURCE_PACK_PROMPT: "Please download this resource pack to play properly!"
       # SEED: "-3609821817241206192"
-      # FORCE_WORLD_COPY: "TRUE"
-      # LEVEL: "adventuremap"
     volumes:
       - ./serverdata:/data
       - ./server-icon.png:/data/server-icon.png
