@@ -24,7 +24,7 @@ services:
       # RESOURCE_PACK: "https://cdn.modrinth.com/data/jOgTDzFc/versions/zoRys6IH/Adventure%20Time.zip"
       # REQUIRE_RESOURCE_PACK: "true"
       # RESOURCE_PACK_PROMPT: "Please download this resource pack to play properly!"
-      # SEED: "-3609821817241206192"
+      SEED: "-3609821817241206192"
     volumes:
       - ./serverdata:/data
       - ./server-icon.png:/data/server-icon.png
